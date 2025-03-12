@@ -141,6 +141,7 @@ body {
     z-index: 9;
     width: 100%;
     background-color: #f4f4f4;
+    overflow: hidden;
 }
 
 .gnb {
@@ -150,7 +151,8 @@ body {
 
 .gnb li a {
     display: block;
-    padding: 40px 70px 0;
+    padding: 40px 40px 40px;
+    margin: 0 30px;
 }
 
 .top_logo {
